@@ -1,0 +1,1 @@
+export function StepCard({ step, title, children }: { step: string; title: string; children: React.ReactNode }) { return <article className="step-card"><span>{step}</span><h3>{title}</h3><p>{children}</p></article>; }

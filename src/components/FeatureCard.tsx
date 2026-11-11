@@ -1,0 +1,1 @@
+export function FeatureCard({ number, title, children }: { number: string; title: string; children: React.ReactNode }) { return <article className="feature-card"><span className="number-tile">{number}</span><h3>{title}</h3><p>{children}</p></article>; }
